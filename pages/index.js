@@ -19,12 +19,12 @@ const Home = () => {
       },
       body: JSON.stringify({ userInput }),
     });
-
+    debugger;
     const data = await response.json();
     const { output } = data;
     console.log("OpenAI replied...", output.text);
 
-    setApiOutput(`${output.text}`);
+    setApiOutput(`${output.text !== undefined ? output.text : output}`);
     setIsGenerating(false);
   };
 
