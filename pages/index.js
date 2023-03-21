@@ -85,8 +85,8 @@ const Home = () => {
       <div className="badge-container grow">
         <a href="https://bilalafridi.com/" target="_blank" rel="noreferrer">
           <div className="badge">
-            <Image src={logo} alt="Bilal Afridi Logo" />
-            <p>Build by Bilal Afridi</p>
+            <Image src={logo} alt="Inqiludio Digital Logo" />
+            <p>Build by Inqiludio Digital</p>
           </div>
         </a>
       </div>
