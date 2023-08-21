@@ -83,7 +83,7 @@ const Home = () => {
         )}
       </div>
       <div className="badge-container grow">
-        <a href="https://bilalafridi.com/" target="_blank" rel="noreferrer">
+        <a href="https://www.inqiludio.com/" target="_blank" rel="noreferrer">
           <div className="badge">
             <Image src={logo} alt="Inqiludio Digital Logo" />
             <p>Build by Inqiludio Digital</p>
