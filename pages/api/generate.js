@@ -24,7 +24,7 @@ const generateAction = async (req, res) => {
     res.status(200).json({ output: basePromptOutput });
   } catch (error) {
     res.status(200).json({
-      output: `Something bad happened! This is a test app so things can go wrong. Try again!`,
+      output: `Something bad happened! This is a test app so things can go wrong. Try again! <br> If this keeps repeating, it's highly probably I am ran out of the free tier of OpenAI API Key.`,
     });
   }
 };
